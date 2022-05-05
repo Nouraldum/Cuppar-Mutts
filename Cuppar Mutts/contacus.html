@@ -1,0 +1,37 @@
+<!DOCTYPE html>`
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       
+        <Center>
+            <Form Name="marquee1">
+                <Input Name="text" Size=80
+                value="Welcome to Glasgow Clyde college, Scotland BEST College......">
+             </Form>
+            </Center>
+            <Script>
+                
+                    /*Text box Ticker*/
+                    ScrollSpeed = 100
+                    ScrollSpeed =1
+                    function ScrollMarquee(){
+                        window.setTimeout('ScrollMarquee()' ,ScrollSpeed);
+
+                        var msg = document.Marquee1.text.value;
+                        document.marquee1.text.value =msg.substring(ScrollChaars) +
+                        msg.substring(0, ScrollChars);
+                    }
+                    ScrollMarquee()
+                    //-->
+            </Script>
+
+
+
+    </script>
+</body>
+</html>
